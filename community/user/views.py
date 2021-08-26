@@ -2,7 +2,7 @@ from django.http import HttpResponse
 from django.shortcuts import render, redirect
 from django.contrib.auth.hashers import make_password, check_password
 from .models import User
-from .forms import loginForm
+from .forms import LoginForm
 
 # Create your views here.
 
@@ -41,7 +41,14 @@ def login(request):
     #             return redirect('/')
     #         else:
     #             res_data['error'] = '비밀번호를 틀렸습니다.'
-    form = loginForm()
+    if request.method == 'POST':
+        form = LoginForm(request.POST)
+        if form.is_valid():
+            # session
+            request.session['user'] = form.user_id
+            return redirect('/')
+    else:
+        form = LoginForm()
     return render(request, 'login.html', {'form': form})
 
 def register(request):
