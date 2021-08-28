@@ -7,13 +7,14 @@ from .forms import LoginForm
 # Create your views here.
 
 def home(request):
-    user_id = request.session.get('user')
+    # 로그인 유무(세션) 템플릿 안에서 사용할 것임
+    # user_id = request.session.get('user')
 
-    if user_id:
-        user = User.objects.get(pk=user_id)
-        return HttpResponse(user.username)
+    # if user_id:
+    #     user = User.objects.get(pk=user_id)
+    #     return HttpResponse(user.username)
 
-    return HttpResponse('Home!')
+    return render(request, 'home.html')
 
 def logout(request):
     if request.session.get('user'):
