@@ -24,3 +24,6 @@ localhost:8000/
 
 
 * ADMIN<br/>
+관리자 페이지 이용가능
+   * id : admin
+   * pw : 1234
