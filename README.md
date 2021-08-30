@@ -17,6 +17,9 @@ django 프레임워크를 사용한 게시판 구현<br/>
 # Information
 localhost:8000/
 
+# 배포 URL
+https://skskdmsdl.pythonanywhere.com/
+
 * USER<br/>
 일반유저로 로그인하면 게시판 이용가능
    * id : user
