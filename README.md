@@ -11,7 +11,8 @@ django 프레임워크를 사용한 게시판 구현<br/>
 * JavaScript
 
 # Features
-* 
+* 회원가입/로그인
+* 게시판 등록
 
 # ERD
 
