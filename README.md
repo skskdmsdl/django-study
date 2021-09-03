@@ -12,7 +12,9 @@ django 프레임워크를 사용한 게시판 구현<br/>
 
 # Features
 * 회원가입/로그인
+* 회원관리
 * 게시판 등록
+* 게시판 관리
 
 # Information
 localhost:8000/
