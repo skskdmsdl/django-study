@@ -9,6 +9,7 @@ django 프레임워크를 사용한 게시판 구현<br/>
 * Python
 * Django
 * JavaScript
+* SQLite
 
 # Features
 * 회원가입/로그인
