@@ -17,6 +17,7 @@ django 프레임워크를 사용한 게시판 구현<br/>
 * 게시판 등록
 * 게시판 관리
 * 페이징 처리
+* 유효성 검사
 
 # Information
 localhost:8000/
