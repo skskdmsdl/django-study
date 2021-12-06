@@ -6,6 +6,7 @@ django 프레임워크를 사용한 게시판 구현<br/>
 개발기간 : 2021.08.10 ~ 2021.08.30
 
 # Skills
+* HTML/CSS
 * Python
 * Django
 * JavaScript
